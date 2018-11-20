@@ -1,0 +1,24 @@
+.ad {
+  height: 40vh;
+}
+image {
+  width: 100vw;
+}
+.menus{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menus{
+  display: flex;
+  flex-direction:row;
+}
+.menus>view{
+flex:auto;
+text-align: center;
+margin: 10px;
+}
+.menus image{
+  width: 270rpx;
+  height: 270rpx;
+}

@@ -1,0 +1,31 @@
+{
+  "pages": [
+  "pages/logs/logs",
+  "pages/index/index"
+],
+"window": {
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#f00",
+  "navigationBarTitleText": "Blibili",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh":true,
+  "backgroundColor":"#ccc"
+},
+"tabBar": {
+  "list": [
+    
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"/imgs/home.png",
+      "selectedIconPath":"/imgs/home-r.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "/imgs/activity.png",
+      "selectedIconPath": "/imgs/activity-r.png"
+    }
+  ]
+}
+}

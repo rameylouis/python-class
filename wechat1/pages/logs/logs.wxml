@@ -1,0 +1,21 @@
+<swiper class="ad" indicator-dots="true" autoplay='true' interval='3000' circular='circular'>
+  <swiper-item><image src='/imgs/log/1.png'/>
+  </swiper-item>
+  <swiper-item><image src='/imgs/log/2.png'/>
+  </swiper-item>
+  <swiper-item><image src='/imgs/log/3.png'/>
+  </swiper-item>
+</swiper>
+
+<view class='menus'>
+  <view class='menu'>
+    <view><image src='/imgs/m1.png'></image><view>xxx</view></view>
+    <view><image src='/imgs/m3.png'></image><view>YYY</view></view>
+     <view><image src='/imgs/m3.png'></image><view>zzz</view></view>
+  </view>
+  <view class='menu'>
+    <view><image src='/imgs/m2.png'></image><view>{{news}}</view></view>
+    <view><image src='/imgs/m4.png'></image><view>{{travel}}</view></view>
+     <view><image src='/imgs/m3.png'></image><view>{{listen}}</view></view>
+  </view>
+</view>
